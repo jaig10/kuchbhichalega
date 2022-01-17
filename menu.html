@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bree+Serif&family=Cinzel+Decorative:wght@900&family=Courgette&family=DM+Serif+Display&family=Dancing+Script:wght@700&family=Great+Vibes&family=Kaushan+Script&family=Mea+Culpa&family=Merienda:wght@700&family=Niconne&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Cinzel:wght@500&family=Marcellus+SC&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Imperial+Script&family=Kaushan+Script&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&family=Merriweather&family=Roboto+Slab&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Itim&family=Jost&family=Playball&family=Prompt&family=Righteous&display=swap" rel="stylesheet">
+
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- my styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/headers.css"> -->
+
+  <title>RESTAURANT</title>
+</head>
+
+<body>
+
+  <div class="navi ">
+    <img class="logo" src="images1/kbc4.png" alt="Restaurant logo">
+    <i class="fas fa-2x fa-fw fa-home"></i><a href="index.html"><span>Home</span></a><br>
+    <i class="fas fa-2x fa-fw fa-user"></i><a href="index.html#About"><span>About Us</span></a><br>
+    <i class="fas fa-2x fa-fw fa-utensils"><a href="index.html#Menu"></i><span>Menu</span></a><br>
+    <i class="fas fa-2x fa-fw fa-camera-retro"><a href="index.html#Press"></i><span>Press</span></a><br>
+    <i class="fas fa-2x fa-fw fa-envelope"></i><a href="index.html#Contact"><span>Contact Us</span></a><br>
+  </div>
+  <!--  navbar-light bg-light fixed-top-->
+  <nav class="navbar  navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Kuch bhi Chalega</a>
+
+      <!-- <img class="navbar-brand inlogo" src="../images/kbc4.png" alt="Restaurant logo">
+         -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+        <!-- <button type="button" class=" " data-bs-dismiss="offcanvas" name="button"><i class="fas fa-times"></i></button> -->
+        <i class="fas fs-3x fa-times" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title" id="offcanvasNavbarLabel">Kuch bhi chalega</h1>
+
+          <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+
+        </div>
+        <hr>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-2x fa-fw fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#About"><i class="fas fa-2x fa-fw fa-user"></i>About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#Menu"><i class="fas fa-2x fa-fw fa-utensils"></i>Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#Press"><i class="fas fa-2x fa-fw fa-camera-retro"></i>Press room</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#Contact"><i class="fas fa-2x fa-fw fa-envelope"></i>Contact Us</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- <div class="menuimg">
+    <h1>Our Menu</h1>
+  </div> -->
+
+  <div class="contentbody">
+    <!-- <div class="pressroom">
+        <div class="presstext">
+          <h1>Press <span>Room</span> </h1>
+        </div>
+      </div>
+      <div class="imgpresscontact imgbtw">
+
+      </div> -->
+    <div class="menuimg">
+      <h1>Our Menu</h1>
+    </div>
+    <div class="menuhtml">
+      <h1>Our <span>Menu</span></h1>
+      <p>" Advice is like food, And teaching is a menu ".</p>
+      <div class="catcont">
+
+        <div class="category all glow" id="1"><a class="glow" href="menu.html">All</a></div>
+        <div class="category chi" id="2"><a href="#chi1">Chinese</a></div>
+        <div class="category ita" id="3"><a href="#ita1">Italian</a></div>
+        <div class="category bev" id="4"><a href="#bev1">Beverages</a></div>
+        <div class="inb">
+          <div class="category momo" id="5"><a href="#mom1">Momos Cravings</a></div>
+          <div class="category spe" id="6"><a href="#oth1">Others</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-xs-12 cat" id="chi1">
+        <h1>Chinese </h1>
+      </div>
+
+      <div class="col-md-6 mndiv">
+        <h4>Soups</h4>
+        <div class="mnitem">
+          <p>Sweet corn <span>₹105</span></p>
+          <p>Hot & Sour (veg / non-veg) <span> ₹ 115 / ₹ 145</span></p>
+          <p>Monchow (veg / non-veg) <span>₹ 115 / ₹ 150</span> </p>
+          <p>Talumein (veg / non-veg) <span>₹ 115 / ₹ 150</span> </p>
+          <p>Chicken egg soup <span>₹160</span></p>
+        </div>
+        <h4>Mains</h4>
+        <div class="mnitem">
+          <p>Chilli Potato <span> ₹185</span></p>
+          <p>Honey Chilli Potato<span> ₹210</span> </p>
+          <p>Chilli Soya Chaap <span>₹190</span></p>
+          <p>Chilli Mushroom <span>₹210</span></p>
+
+        </div>
+      </div>
+      <div class="col-md-6 mndiv">
+        <h4>Sides/ Instants Cheese Munchers</h4>
+        <div class="mnitem">
+          <p>Spring Roll<span>₹140</span> </p>
+          <p>Tandoori Spring Roll Veg <span>₹220</span></p>
+          <p>Tandoori Spring Roll Chicken <span>₹250</span>. </p>
+          <p>Veg Kurkure Spring Roll (H/F) <span>₹ 90 / ₹ 140</span> </p>
+          <p>Chicken spring Roll<span>₹ 90 / ₹ 140</span>₹140</p>
+          <p>Kurkure Chicken Spring Roll (H/F)<span>₹ 115 / ₹ 170</span></p>
+          <p>Veg Salt & Pepper<span>₹150</span></p>
+          <p>Kurkure Soya Chaap (New) <span>₹210</span></p>
+          <p>Kurkure Paneer Strips (New) <span>₹210</span> </p>
+        </div>
+      </div>
+      <div class="col-md-6 mndiv">
+        <h4>Noodles</h4>
+        <div class="mnitem">
+          <p>Veg noodles <span>190</span></p>
+          <p>Veg hakka <span>210</span></p>
+          <p>Singapuri noodles <span>225</span></p>
+          <p>Chilli garlic <span>225</span></p>
+          <p>Kbe special veg noodle <span>280</span></p>
+          <p>Sp. Potli Noodles Veg (Dine in) <span>400</span></p>
+          <p>Sp. Polli Noodles CIL. (Dine in ) <span>450</span></p>
+          <p>Ch. Hakka noodle <span>275</span></p>
+          <p>Ch. Singapuri noodle <span>275</span></p>
+          <p>Ch. Chilli garlic <span>275</span></p>
+          <p>Kbc special chicken <span>290</span></p>
+          <p>Egg noodles <span>185</span></p>
+          <p>Egg chilli garlic <span>195</span></p>
+          <p>Egg schezwan <span>195</span></p>
+          <p>Egg singapuri <span>235</span></p>
+        </div>
+        <h4>Sizzler</h4>
+        <div class="mnitem">
+          <p>Veg sizzler (Chinese)<span>450</span></p>
+          <p>Chicken sizzler (Chinese)<span>570</span></p>
+        </div>
+      </div>
+
+      <div class="col-md-6 mndiv">
+        <h4>DRY/ GRAVY</h4>
+        <div class="mnitem">
+          <p>Veg Manchurian<span>230</span></p>
+          <p>Chilli Paneer<span>250</span></p>
+          <p>Paneer 65 (NEW)<span>250</span></p>
+          <p>Chilli Chicken (8 pes)<span>280</span></p>
+          <p>Chicken 65 (NEW)<span>290</span></p>
+        </div>
+
+        <h4>Chicken Lollipop</h4>
+        <div class="mnitem">
+          <p>Crunchy Chicken Lollipap (H/F)<span>205/285</span></p>
+          <p>Creamy Chicken Lollipop (H/F)<span>285/370</span></p>
+          <p>Hot Garlie Chicken Lollipop (H/F)<span>310/390</span></p>
+        </div>
+        <h4>Rice</h4>
+        <div class="mnitem">
+          <p>Fried Rice - VEG<span>150</span></p>
+          <p>Fried Rice - NON VEG<span>185</span></p>
+          <p>Chilli Garlic Fried Rice<span>195</span></p>
+          <p>Schezwan Fried Rice<span>195</span></p>
+          <p>Egg Fried Rice<span>170</span></p>
+        </div>
+      </div>
+
+
+      <div class="col-xs-12 cat" id="ita1">
+        <h1>Italian</h1>
+      </div>
+
+      <div class="col-md-6 mndiv">
+        <h4>Pizza</h4>
+        <div class="mnitem">
+          <p>Margarita Pizza<span>145</span></p>
+          <p>Corn Continental Pizza<span>165</span></p>
+          <p>Tandoori Paneer Pizza<span>200</span></p>
+          <p>Veg Manchurian Pizza<span>230</span></p>
+          <p>Loaded Pizza(Veg)<span>230</span></p>
+          <p>French Fries Pizza<span>230</span></span></p>
+          <p>50-50 Fries Pizza<span>325</span></p>
+          <p>Chicken tikka Pizza<span>240</span></p>
+          <p>Chicken Seekh Pizza<span>240</span></p>
+          <p>Loaded Pizza(Chicken)<span>265</span></p>
+          <p>Chicken Fries Pizza<span>265</span></p>
+        </div>
+
+
+      </div>
+      <div class="col-md-6 mndiv">
+        <h4>Pasta</h4>
+        <div class="mnitem">
+          <p>Red Sauce Pasta / Baked<span>190/220</span></p>
+          <p>White Sauce Pasta / Baked<span>220/250</span></p>
+          <p>Mix Sauce Pasta / Baked<span>240/270</span></p>
+          <p>CH. Red Sauce Pasta / Naked<span>290/330/</span></p>
+          <p>CH. White Sauce Pasta / Baked<span>290/330</span></p>
+          <p>CH. Mix Sauce Pasta / Raked<span>310/360</span></p>
+        </div>
+
+        <h4>Garlic Bread</h4>
+        <div class="mnitem">
+          <p>Cheese Garlie Bread<span>110</span></p>
+          <p>Chilli Cheese Garlie Bread<span>125</span></p>
+          <p>Corn Garlic Bread<span>135</span></p>
+          <p>Loaded Garlic Bread (NEW)<span>160</span></p>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-xs-12 cat" id="bev1">
+        <h1>Beverages</h1>
+      </div>
+
+      <div class="col-md-6 mndiv">
+        <div class="mnitem">
+          <p>Pepsi 600ml<span>50</span></p>
+        <p>Bud (Non-alcholic) 330ml<span>120</span></p>
+        </div>
+        <h4>Hot Beverages</h4>
+        <div class="mnitem">
+          <p>Tea<span>45</span></p>
+          <p>Ten Masala<span>70</span></p>
+          <p>Adrak Tea<span>60</span></p>
+          <p>Coffee<span>80/</span></p>
+        </div>
+
+        <h4>Nimbo Pani</h4>
+        <div class="mnitem">
+          <p>Ice Tea<span>80</span></p>
+          <p>Pink Valentine<span>100</span></p>
+          <p>Refreshing Litchi<span>105</span></p>
+          <p>Lime Twister (Mojito)<span>110</span></p>
+          <p>Citrus Cooler<span>110</span></p>
+          <p>Cran Dandy Coole<span>125</span></span></p>
+          <p>Apple Lemon Fizz<span>130</span></p>
+          <p>Blue Lagoon<span>130</span></p>
+          <p>Mango - Mock- O- Lada<span>190</span></p>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-6 mndiv">
+        <h4>Nimbo Pani</h4>
+        <div class="mnitem">
+          <p>Nimbu Pani<span>75</span></p>
+          <p>Masala Nimbo Pani<span>80</span></p>
+        </div>
+        <h4>Shakes</h4>
+        <div class="mnitem">
+          <p>Strawberry Shake<span>115</span></p>
+          <p>Butter Scotch Shake<span>115</span></p>
+          <p>Chocolate Shake<span>115</span></p>
+          <p>Cold Coffee<span>125</span></p>
+          <p>Cold Coffee with Ice Cream<span>170</span></p>
+          <p>Kit Kat Shake<span>230</span></p>
+          <p>Oreo Shake<span>230</span></p>
+          <p>Choco pie Shake<span>265</span></p>
+          <p>Brownie Shake<span>265</span></p>
+          <p>Nutella Shake<span>265</span></p>
+          <p>Nutella Banana Shake<span>285</span></p>
+          <p>KBCSPI. Oreo Berry Shake NEW<span>285</span></p>
+        </div>
+      </div>
+      <div class="col-xs-12 cat" id="mom1">
+        <h1>Momos Cravings</h1>
+      </div>
+      <div class="col-md-6 mndiv">
+
+        <h4>Steam & pcs</h4>
+        <div class="mnitem">
+          <p>Veg<span>90</span></p>
+          <p>Paneer<span>125</span></p>
+          <p>Chicken<span>150</span></p>
+        </div>
+
+        <h4>Fried & pcs</h4>
+        <div class="mnitem">
+          <p>Veg<span>125</span></p>
+          <p>Paneer<span>150</span></p>
+          <p>Chicken<span>170</span></p>
+        </div>
+
+        <h4>Tandoori / Afghani</h4>
+        <div class="mnitem">
+          <p>Veg<span>185</span></p>
+          <p>Paneer<span>230</span></p>
+          <p>Chicken<span>275</span></p>
+        </div>
+        <h4>Cheese Corn Momos</h4>
+        <div class="mnitem">
+          <p>Crunchy (6pcs)<span>300</span></p>
+          <p>Kurkure (6pcs)<span>320</span></p>
+        </div>
+        <h4>Fire momos (6pcs)</h4>
+        <div class="mnitem">
+          <p>Veg<span>290</span></p>
+          <p>Paneer<span>335</span></p>
+          <p>Chicken<span>380</span></p>
+        </div>
+        <h4>Maggi Momos</h4>
+        <div class="mnitem">
+          <p>Crunchy (6pcs)<span>275</span></p>
+          <p>Kurkure (6pcs)<span>300</span></p>
+        </div>
+
+      </div>
+
+      <div class="col-md-6 mndiv">
+        <h4>Gravy</h4>
+        <div class="mnitem">
+          <p>Veg<span>210</span></p>
+          <p>Paneer<span>250</span></p>
+          <p>Chicken<span>270</span></p>
+        </div>
+        <h4>Laypate</h4>
+        <div class="mnitem">
+          <p>Veg<span>210</span></p>
+          <p>Paneer<span>250</span></p>
+          <p>Chicken<span>270</span></p>
+        </div>
+        <h4>Crunchy / Kurkure</h4>
+        <div class="mnitem">
+          <p>Veg (Half/Full)<span>165/195</span></p>
+          <p>Paneer (Half/Full)<span>190/230</span></p>
+          <p>Chicken (Mall/Full)<span>235/265</span></p>
+          <p>Crunchy Tandpori Veg Momos<span>285</span></p>
+          <p>Crunchy Tandoori Paneer Momos<span>320</span></p>
+          <p>Crunchy Fandaori Chicken Momos<span>345</span></p>
+        </div>
+        <h4>Pan Fried Momos</h4>
+        <div class="mnitem">
+          <p>Veg (Schezwan/Chilli Garlie)<span>200</span></p>
+          <p>Paneer (Schezwan/Chilli Garlic)<span>230</span></p>
+          <p>Chicken (Schezwan/Chilli,Garlie)<span>275</span></p>
+        </div>
+      </div>
+
+      <div class="col-xs-12 cat" id="oth1">
+        <h1>Others</h1>
+      </div>
+
+      <div class="col-md-6 mndiv">
+
+      <h4>Sides / Instants</h4>
+        <div class="mnitem">
+          <p>Cheese Munchers (6 Pcs)<span>105</span></p>
+          <p>Chilli garlic potato shots (12 Pes)<span>105</span></p>
+          <p>French fries<span>110</span></p>
+          <p>Masala fries<span>125</span></p>
+          <p>Peri peri fries<span>125</span></p>
+          <p>Cheesy fries<span>150</span></p>
+          <p>Chicken nuggets (6 Pes)<span>110</span></p>
+          <p>Chicken garlie fingers (6 Pes)<span>110</span></p>
+          <p>Chicken fries<span>125</span></p>
+          <p>Chicken seekh (2 Pes<span>115</span></p>
+          <p>Mutton seekh (2 Pes)<span>150</span></p>
+        </div>
+        <h4>Vada Pav</h4>
+        <div class="mnitem">
+          <p>Veg Momo Pay (NEW)<span>65</span></p>
+          <p>Paneer Momo Pav (NEW)<span>75</span></p>
+          <p>Chicken Mom Pay (NEW)<span>85</span></p>
+          <p>Regular Vada Pav<span>65</span></p>
+          <p>Cheese Vada Pav<span>75</span></p>
+          <p>Schezwan Vada Pav<span>85</span></p>
+        </div>
+        <h4>Rolls</h4>
+        <div class="mnitem">
+          <p>Momos Roll (Veg/Chicken NEW)<span>105/140</span></p>
+          <p>Veg Chaap Roll<span>115</span></p>
+          <p>Chill Paneer Roll<span>160</span></p>
+          <p>Chilli Chicken Roll<span>185</span></p>
+          <p>Chicken Tikka Roll<span>195</span></p>
+          <p>Chicken Seekh Roll (2 Pes)<span>230</span></p>
+          <p>Mutton Seekh Roll (2 Pos)<span>275</span></p>
+          <p>Egg Roll (Single/Double)<span>115/155</span></p>
+        </div>
+
+        <h4>Maggi</h4>
+        <div class="mnitem">
+          <p>Veg Masala Maggi<span>105</span></p>
+          <p>Cheese Maggi<span>125</span></p>
+          <p>Nachos Maggi (NEW)<span>145</span></p>
+          <p>Reg Maggi<span>125</span></p>
+          <p>Chicken Maggi<span>145</span></p>
+          <p>Baked Maggi (Veg)<span>145</span></p>
+        </div>
+
+
+      </div>
+      <div class="col-md-6 mndiv">
+        <h4>Burger</h4>
+        <div class="mnitem">
+          <p> Aaloo Tikki<span>75</span></p>
+          <p>Spicy Masala Treat<span>100</span></p>
+          <p>Double aloo Tikki<span>125</span></p>
+          <p>Cheese Burger<span>115</span></p>
+          <p>Maharaja Veggie<span>125</span></p>
+          <p>Crispy Paneer<span>150</span></p>
+          <p>ERR Fun Burger<span>80</span></p>
+          <p>Chicken Fillet Burger<span>115</span></p>
+          <p>Chilli Cheese Chicken Burger<span>150</span></p>
+          <p>Crunchy Veg Burger<span>175</span></p>
+          <p>Crunchy Paneer Burger<span>210</span></p>
+          <p>Crunchy Chicken Burger<span>230</span></p>
+          <p>Pizza Burger Veg<span>210</span></p>
+          <p>Pizza Burger Chicken<span>230</span></p>
+        </div>
+        <h4>Wraps</h4>
+        <div class="mnitem">
+          <p>Crunchy Veggie Wrap<span>135</span></p>
+          <p>Paneer Bhurji Wrap<span>185</span></p>
+          <p>Spicy Paneer<span>200</span></p>
+          <p>Bbq Chicken Wrap<span>185</span></p>
+        </div>
+        <h4>Sandwiches</h4>
+        <div class="mnitem">
+          <p>Chilli Cheese Toast (2 Slice)<span>105</span></p>
+          <p>Cheese Grilled Sandwich<span>125</span></p>
+          <p>Cheese Corn Sandwich<span>140</span></p>
+          <p>KB€ Special Club Sandwich (Veg)<span>210</span></p>
+          <p>KB€ Special Club Sandwich(N.veg)<span>240</span></p>
+          <p>Chicken Mave Sandwich<span>160</span></p>
+          <p>Maxican Chicken Sandwich<span>170</span></p>
+          <p>K3€ Cheese Burst Pizza Sandwich (NEW)<span>290</span></p>
+          <p>KB6 CH. Cheese Burst Pizza Sandwich<span>325</span></p>
+          <p>KG Pizza Pasta Sandwich<span>325</span></p>
+        </div>
+        <h4>Omelette</h4>
+        <div class="mnitem">
+          <p>Single egg + 1 slice<span>80</span></p>
+          <p>Double egg + 2 slice<span>125</span></p>
+          <p>Chicken seekh Omelette (2 slice)<span>150</span></p>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+  <div class="contentbody">
+    <div class="contact">
+      <div class="row">
+        <div class="col-md-5 context">
+          <h1>Healthy, hearty meals await.</h1> <span>See you soon!</span>
+          <p>Dine Time : 11 am - 11 pm</p>
+        </div>
+        <div class="col-md-7 get">
+          <h3>Address : </h3><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+          <h3>Contact Number : </h3><span>XXXXXXXXXX</span>
+          <h3>Email addres :</h3><span>xbnd@gmail.com</span>
+          <h3>Drop us a message on :</h3>
+          <div class="social">
+            <i class="fab fa-2x fa-facebook-f"></i>
+            <i class="fab fa-2x fa-instagram"></i>
+            <i class="fas fa-2x fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <script src="js/index.js" type="text/javascript">
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
